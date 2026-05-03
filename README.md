@@ -10,17 +10,8 @@ Trained RL agents (PPO / LSTM-PPO) navigate grid-world environments to complete 
 
 ## Results
 
-### Baseline performance across map levels
-![Baseline](figures/fig1_baseline.png)
-
-### Anomaly type comparison
-![Anomaly level](figures/fig2_anomaly_level.png)
-
-### Task memory ablation
-![Task memory](figures/fig3_task_memory.png)
-
-### No-anomaly control
-![No anomaly](figures/fig4_no_anomaly.png)
+### Baseline performance & combined overview
+![Combined overview](figures/fig1234_combined.png)
 
 ### Multi-task generalization
 ![Multitask](figures/fig5_multitask.png)
@@ -29,13 +20,13 @@ Trained RL agents (PPO / LSTM-PPO) navigate grid-world environments to complete 
 ![LLM comparison](figures/fig6_llm_comparison.png)
 
 ### Trigger ablation
-![Trigger](figures/fig7_trigger.png)
+![Trigger ablation](figures/fig7_trigger.png)
 
 ### Edge deployment
-![Edge](figures/fig8_edge.png)
+![Edge deployment](figures/fig8_edge.png)
 
 ### Noise intervention
-![Noise](figures/fig9_noise.png)
+![Noise intervention](figures/fig9_noise.png)
 
 ### LLM baselines
 ![LLM baselines](figures/fig10_llm_baselines.png)
@@ -46,11 +37,11 @@ Trained RL agents (PPO / LSTM-PPO) navigate grid-world environments to complete 
 ### CoT baseline
 ![CoT baseline](figures/fig_cot_baseline.png)
 
-### Anomaly injection timing
-![Injection timing](figures/fig_injection_timing.png)
-
 ### Multi-task baseline
 ![Multitask baseline](figures/fig_multitask_baseline.png)
+
+### Anomaly injection timing
+![Injection timing](figures/fig_injection_timing.png)
 
 ### Map visualization — all levels
 ![Map all levels](figures/fig_map_viz_all_levels.png)
