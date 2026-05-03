@@ -1,0 +1,38 @@
+{
+  "pick_deliver_obstruction": {
+    "success_rate": 66.7,
+    "avg_steps": 647.0,
+    "avg_llm_calls": 22.0,
+    "mean_latency_s": 62.61,
+    "peak_latency_s": 81.47,
+    "n_episodes": 3,
+    "raw": [
+      {
+        "success": true,
+        "steps": 692,
+        "llm_calls": 21,
+        "mean_latency": 72.06,
+        "peak_latency": 81.47
+      },
+      {
+        "success": false,
+        "steps": 2000,
+        "llm_calls": 27,
+        "mean_latency": 72.36,
+        "peak_latency": 76.92
+      },
+      {
+        "success": true,
+        "steps": 602,
+        "llm_calls": 18,
+        "mean_latency": 43.41,
+        "peak_latency": 74.92
+      }
+    ]
+  },
+  "_meta": {
+    "device": "Orange Pi 4",
+    "llm": "Gemma-3-1B via LM Studio",
+    "total_time": 4274.8
+  }
+}

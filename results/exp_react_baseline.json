@@ -1,0 +1,20 @@
+{
+  "cot_prompt": {
+    "none": {
+      "success_rate": 53.333333333333336,
+      "avg_llm_calls": 18.333333333333332
+    },
+    "obstruction": {
+      "success_rate": 63.33333333333333,
+      "avg_llm_calls": 17.166666666666668
+    },
+    "displacement": {
+      "success_rate": 73.33333333333333,
+      "avg_llm_calls": 10.866666666666667
+    },
+    "invalidation": {
+      "success_rate": 63.33333333333333,
+      "avg_llm_calls": 17.166666666666668
+    }
+  }
+}

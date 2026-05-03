@@ -1,0 +1,1046 @@
+{
+  "pick_deliver_anomaly": {
+    "none": {
+      "success_rate": 75.0,
+      "avg_steps": 75.46666666666667,
+      "avg_llm_calls": 5.5,
+      "n_episodes": 20,
+      "raw": [
+        {
+          "success": true,
+          "steps": 83,
+          "llm_calls": 1,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 37,
+          "llm_calls": 0,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 57,
+          "llm_calls": 0,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 63,
+          "llm_calls": 0,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 121,
+          "llm_calls": 2,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 111,
+          "llm_calls": 1,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 45,
+          "llm_calls": 0,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 81,
+          "llm_calls": 2,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 56,
+          "llm_calls": 2,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": false,
+          "steps": 1200,
+          "llm_calls": 0,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": false,
+          "steps": 1200,
+          "llm_calls": 36,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 121,
+          "llm_calls": 2,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 43,
+          "llm_calls": 0,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": false,
+          "steps": 1200,
+          "llm_calls": 39,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 61,
+          "llm_calls": 1,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": false,
+          "steps": 1200,
+          "llm_calls": 22,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 88,
+          "llm_calls": 0,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": false,
+          "steps": 1200,
+          "llm_calls": 0,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 65,
+          "llm_calls": 0,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 100,
+          "llm_calls": 2,
+          "anomaly_type": "none",
+          "task_type": 0
+        }
+      ],
+      "latency_s": 46.66
+    },
+    "obstruction": {
+      "success_rate": 75.0,
+      "avg_steps": 70.73333333333333,
+      "avg_llm_calls": 5.05,
+      "n_episodes": 20,
+      "raw": [
+        {
+          "success": true,
+          "steps": 49,
+          "llm_calls": 1,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 84,
+          "llm_calls": 0,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": false,
+          "steps": 1200,
+          "llm_calls": 41,
+          "anomaly_type": "obstruction",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 94,
+          "llm_calls": 2,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 63,
+          "llm_calls": 0,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 66,
+          "llm_calls": 1,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": false,
+          "steps": 1200,
+          "llm_calls": 3,
+          "anomaly_type": "obstruction",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 98,
+          "llm_calls": 1,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 43,
+          "llm_calls": 0,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 117,
+          "llm_calls": 4,
+          "anomaly_type": "obstruction",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 41,
+          "llm_calls": 1,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": false,
+          "steps": 1200,
+          "llm_calls": 4,
+          "anomaly_type": "obstruction",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 30,
+          "llm_calls": 0,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": false,
+          "steps": 1200,
+          "llm_calls": 3,
+          "anomaly_type": "obstruction",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 64,
+          "llm_calls": 0,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": false,
+          "steps": 1200,
+          "llm_calls": 38,
+          "anomaly_type": "obstruction",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 67,
+          "llm_calls": 0,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 91,
+          "llm_calls": 1,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 67,
+          "llm_calls": 0,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 87,
+          "llm_calls": 1,
+          "anomaly_type": "none",
+          "task_type": 0
+        }
+      ],
+      "latency_s": 29.07
+    },
+    "displacement": {
+      "success_rate": 80.0,
+      "avg_steps": 78.5,
+      "avg_llm_calls": 4.75,
+      "n_episodes": 20,
+      "raw": [
+        {
+          "success": true,
+          "steps": 93,
+          "llm_calls": 1,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 157,
+          "llm_calls": 2,
+          "anomaly_type": "displacement",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 42,
+          "llm_calls": 1,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 83,
+          "llm_calls": 1,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 62,
+          "llm_calls": 1,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 89,
+          "llm_calls": 1,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": false,
+          "steps": 1200,
+          "llm_calls": 15,
+          "anomaly_type": "displacement",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 26,
+          "llm_calls": 0,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 99,
+          "llm_calls": 2,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": false,
+          "steps": 1200,
+          "llm_calls": 24,
+          "anomaly_type": "displacement",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 48,
+          "llm_calls": 1,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 50,
+          "llm_calls": 0,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 52,
+          "llm_calls": 0,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 65,
+          "llm_calls": 1,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": false,
+          "steps": 1200,
+          "llm_calls": 3,
+          "anomaly_type": "displacement",
+          "task_type": 0
+        },
+        {
+          "success": false,
+          "steps": 1200,
+          "llm_calls": 37,
+          "anomaly_type": "displacement",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 205,
+          "llm_calls": 4,
+          "anomaly_type": "displacement",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 87,
+          "llm_calls": 1,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 32,
+          "llm_calls": 0,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 66,
+          "llm_calls": 0,
+          "anomaly_type": "none",
+          "task_type": 0
+        }
+      ],
+      "latency_s": 34.43
+    },
+    "invalidation": {
+      "success_rate": 95.0,
+      "avg_steps": 92.73684210526316,
+      "avg_llm_calls": 3.6,
+      "n_episodes": 20,
+      "raw": [
+        {
+          "success": true,
+          "steps": 50,
+          "llm_calls": 0,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 56,
+          "llm_calls": 0,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 45,
+          "llm_calls": 1,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 32,
+          "llm_calls": 0,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 360,
+          "llm_calls": 11,
+          "anomaly_type": "invalidation",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 57,
+          "llm_calls": 1,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 54,
+          "llm_calls": 1,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 25,
+          "llm_calls": 0,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 74,
+          "llm_calls": 1,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 226,
+          "llm_calls": 7,
+          "anomaly_type": "invalidation",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 77,
+          "llm_calls": 2,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 83,
+          "llm_calls": 1,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 70,
+          "llm_calls": 1,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 40,
+          "llm_calls": 0,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 67,
+          "llm_calls": 1,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 157,
+          "llm_calls": 5,
+          "anomaly_type": "invalidation",
+          "task_type": 0
+        },
+        {
+          "success": false,
+          "steps": 1200,
+          "llm_calls": 34,
+          "anomaly_type": "invalidation",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 41,
+          "llm_calls": 1,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 149,
+          "llm_calls": 2,
+          "anomaly_type": "invalidation",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 99,
+          "llm_calls": 3,
+          "anomaly_type": "none",
+          "task_type": 0
+        }
+      ],
+      "latency_s": 21.28
+    }
+  },
+  "multitask_no_anomaly": {
+    "pick_deliver": {
+      "success_rate": 55.00000000000001,
+      "avg_steps": 121.63636363636364,
+      "avg_llm_calls": 4.55,
+      "n_episodes": 20,
+      "raw": [
+        {
+          "success": false,
+          "steps": 1200,
+          "llm_calls": 0,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 75,
+          "llm_calls": 1,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": false,
+          "steps": 1200,
+          "llm_calls": 1,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": false,
+          "steps": 1200,
+          "llm_calls": 39,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": false,
+          "steps": 1200,
+          "llm_calls": 2,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 89,
+          "llm_calls": 1,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 47,
+          "llm_calls": 0,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 47,
+          "llm_calls": 0,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": false,
+          "steps": 1200,
+          "llm_calls": 0,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": false,
+          "steps": 1200,
+          "llm_calls": 6,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": false,
+          "steps": 1200,
+          "llm_calls": 2,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 51,
+          "llm_calls": 0,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 114,
+          "llm_calls": 2,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": false,
+          "steps": 1200,
+          "llm_calls": 0,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 404,
+          "llm_calls": 10,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": false,
+          "steps": 1200,
+          "llm_calls": 20,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 103,
+          "llm_calls": 2,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 272,
+          "llm_calls": 4,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 69,
+          "llm_calls": 1,
+          "anomaly_type": "none",
+          "task_type": 0
+        },
+        {
+          "success": true,
+          "steps": 67,
+          "llm_calls": 0,
+          "anomaly_type": "none",
+          "task_type": 0
+        }
+      ]
+    },
+    "patrol": {
+      "success_rate": 65.0,
+      "avg_steps": 118.6923076923077,
+      "avg_llm_calls": 4.05,
+      "n_episodes": 20,
+      "raw": [
+        {
+          "success": true,
+          "steps": 58,
+          "llm_calls": 1,
+          "anomaly_type": "none",
+          "task_type": 1
+        },
+        {
+          "success": true,
+          "steps": 101,
+          "llm_calls": 1,
+          "anomaly_type": "none",
+          "task_type": 1
+        },
+        {
+          "success": true,
+          "steps": 97,
+          "llm_calls": 2,
+          "anomaly_type": "none",
+          "task_type": 1
+        },
+        {
+          "success": false,
+          "steps": 1200,
+          "llm_calls": 0,
+          "anomaly_type": "none",
+          "task_type": 1
+        },
+        {
+          "success": true,
+          "steps": 94,
+          "llm_calls": 1,
+          "anomaly_type": "none",
+          "task_type": 1
+        },
+        {
+          "success": false,
+          "steps": 1200,
+          "llm_calls": 1,
+          "anomaly_type": "none",
+          "task_type": 1
+        },
+        {
+          "success": false,
+          "steps": 1200,
+          "llm_calls": 1,
+          "anomaly_type": "none",
+          "task_type": 1
+        },
+        {
+          "success": false,
+          "steps": 1200,
+          "llm_calls": 0,
+          "anomaly_type": "none",
+          "task_type": 1
+        },
+        {
+          "success": true,
+          "steps": 252,
+          "llm_calls": 5,
+          "anomaly_type": "none",
+          "task_type": 1
+        },
+        {
+          "success": true,
+          "steps": 101,
+          "llm_calls": 0,
+          "anomaly_type": "none",
+          "task_type": 1
+        },
+        {
+          "success": true,
+          "steps": 139,
+          "llm_calls": 4,
+          "anomaly_type": "none",
+          "task_type": 1
+        },
+        {
+          "success": true,
+          "steps": 43,
+          "llm_calls": 0,
+          "anomaly_type": "none",
+          "task_type": 1
+        },
+        {
+          "success": false,
+          "steps": 1200,
+          "llm_calls": 2,
+          "anomaly_type": "none",
+          "task_type": 1
+        },
+        {
+          "success": true,
+          "steps": 322,
+          "llm_calls": 10,
+          "anomaly_type": "none",
+          "task_type": 1
+        },
+        {
+          "success": true,
+          "steps": 91,
+          "llm_calls": 2,
+          "anomaly_type": "none",
+          "task_type": 1
+        },
+        {
+          "success": false,
+          "steps": 1200,
+          "llm_calls": 34,
+          "anomaly_type": "none",
+          "task_type": 1
+        },
+        {
+          "success": true,
+          "steps": 68,
+          "llm_calls": 1,
+          "anomaly_type": "none",
+          "task_type": 1
+        },
+        {
+          "success": false,
+          "steps": 1200,
+          "llm_calls": 15,
+          "anomaly_type": "none",
+          "task_type": 1
+        },
+        {
+          "success": true,
+          "steps": 89,
+          "llm_calls": 0,
+          "anomaly_type": "none",
+          "task_type": 1
+        },
+        {
+          "success": true,
+          "steps": 88,
+          "llm_calls": 1,
+          "anomaly_type": "none",
+          "task_type": 1
+        }
+      ]
+    },
+    "search_retrieve": {
+      "success_rate": 30.0,
+      "avg_steps": 455.0,
+      "avg_llm_calls": 33.7,
+      "n_episodes": 20,
+      "raw": [
+        {
+          "success": true,
+          "steps": 390,
+          "llm_calls": 13,
+          "anomaly_type": "none",
+          "task_type": 2
+        },
+        {
+          "success": false,
+          "steps": 1200,
+          "llm_calls": 39,
+          "anomaly_type": "none",
+          "task_type": 2
+        },
+        {
+          "success": false,
+          "steps": 1200,
+          "llm_calls": 40,
+          "anomaly_type": "none",
+          "task_type": 2
+        },
+        {
+          "success": false,
+          "steps": 1200,
+          "llm_calls": 42,
+          "anomaly_type": "none",
+          "task_type": 2
+        },
+        {
+          "success": false,
+          "steps": 1200,
+          "llm_calls": 42,
+          "anomaly_type": "none",
+          "task_type": 2
+        },
+        {
+          "success": false,
+          "steps": 1200,
+          "llm_calls": 43,
+          "anomaly_type": "none",
+          "task_type": 2
+        },
+        {
+          "success": false,
+          "steps": 1200,
+          "llm_calls": 43,
+          "anomaly_type": "none",
+          "task_type": 2
+        },
+        {
+          "success": true,
+          "steps": 581,
+          "llm_calls": 22,
+          "anomaly_type": "none",
+          "task_type": 2
+        },
+        {
+          "success": false,
+          "steps": 1200,
+          "llm_calls": 41,
+          "anomaly_type": "none",
+          "task_type": 2
+        },
+        {
+          "success": false,
+          "steps": 1200,
+          "llm_calls": 43,
+          "anomaly_type": "none",
+          "task_type": 2
+        },
+        {
+          "success": true,
+          "steps": 229,
+          "llm_calls": 8,
+          "anomaly_type": "none",
+          "task_type": 2
+        },
+        {
+          "success": false,
+          "steps": 1200,
+          "llm_calls": 42,
+          "anomaly_type": "none",
+          "task_type": 2
+        },
+        {
+          "success": false,
+          "steps": 1200,
+          "llm_calls": 42,
+          "anomaly_type": "none",
+          "task_type": 2
+        },
+        {
+          "success": true,
+          "steps": 421,
+          "llm_calls": 14,
+          "anomaly_type": "none",
+          "task_type": 2
+        },
+        {
+          "success": false,
+          "steps": 1200,
+          "llm_calls": 39,
+          "anomaly_type": "none",
+          "task_type": 2
+        },
+        {
+          "success": false,
+          "steps": 1200,
+          "llm_calls": 41,
+          "anomaly_type": "none",
+          "task_type": 2
+        },
+        {
+          "success": true,
+          "steps": 925,
+          "llm_calls": 30,
+          "anomaly_type": "none",
+          "task_type": 2
+        },
+        {
+          "success": true,
+          "steps": 184,
+          "llm_calls": 6,
+          "anomaly_type": "none",
+          "task_type": 2
+        },
+        {
+          "success": false,
+          "steps": 1200,
+          "llm_calls": 44,
+          "anomaly_type": "none",
+          "task_type": 2
+        },
+        {
+          "success": false,
+          "steps": 1200,
+          "llm_calls": 40,
+          "anomaly_type": "none",
+          "task_type": 2
+        }
+      ]
+    }
+  }
+}

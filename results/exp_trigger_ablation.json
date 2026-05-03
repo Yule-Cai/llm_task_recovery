@@ -1,0 +1,68 @@
+{
+  "displacement": {
+    "none": {
+      "success_rate": 86.66666666666667,
+      "avg_llm_calls": 13.4,
+      "avg_steps": 119.34615384615384
+    },
+    "obstruction": {
+      "success_rate": 90.0,
+      "avg_llm_calls": 9.566666666666666,
+      "avg_steps": 116.55555555555556
+    },
+    "displacement": {
+      "success_rate": 100.0,
+      "avg_llm_calls": 2.9,
+      "avg_steps": 106.76666666666667
+    },
+    "invalidation": {
+      "success_rate": 80.0,
+      "avg_llm_calls": 22.433333333333334,
+      "avg_steps": 143.41666666666666
+    }
+  },
+  "entropy": {
+    "none": {
+      "success_rate": 36.666666666666664,
+      "avg_llm_calls": 4.566666666666666,
+      "avg_steps": 75.9090909090909
+    },
+    "obstruction": {
+      "success_rate": 43.333333333333336,
+      "avg_llm_calls": 9.666666666666666,
+      "avg_steps": 107.07692307692308
+    },
+    "displacement": {
+      "success_rate": 46.666666666666664,
+      "avg_llm_calls": 7.733333333333333,
+      "avg_steps": 137.78571428571428
+    },
+    "invalidation": {
+      "success_rate": 53.333333333333336,
+      "avg_llm_calls": 7.933333333333334,
+      "avg_steps": 147.5625
+    }
+  },
+  "fixed_40": {
+    "none": {
+      "success_rate": 80.0,
+      "avg_llm_calls": 12.2,
+      "avg_steps": 128.08333333333334
+    },
+    "obstruction": {
+      "success_rate": 93.33333333333333,
+      "avg_llm_calls": 5.833333333333333,
+      "avg_steps": 118.32142857142857
+    },
+    "displacement": {
+      "success_rate": 93.33333333333333,
+      "avg_llm_calls": 8.066666666666666,
+      "avg_steps": 204.89285714285714
+    },
+    "invalidation": {
+      "success_rate": 86.66666666666667,
+      "avg_llm_calls": 8.8,
+      "avg_steps": 94.23076923076923
+    }
+  }
+}

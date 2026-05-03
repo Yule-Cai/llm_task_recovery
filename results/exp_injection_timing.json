@@ -1,0 +1,70 @@
+{
+  "step_30": {
+    "obstruction": {
+      "success_rate": 85.0,
+      "avg_llm_calls": 4.3,
+      "inject_step": 30
+    },
+    "displacement": {
+      "success_rate": 85.0,
+      "avg_llm_calls": 5.0,
+      "inject_step": 30
+    },
+    "invalidation": {
+      "success_rate": 85.0,
+      "avg_llm_calls": 5.45,
+      "inject_step": 30
+    }
+  },
+  "step_100": {
+    "obstruction": {
+      "success_rate": 85.0,
+      "avg_llm_calls": 1.55,
+      "inject_step": 100
+    },
+    "displacement": {
+      "success_rate": 90.0,
+      "avg_llm_calls": 1.2,
+      "inject_step": 100
+    },
+    "invalidation": {
+      "success_rate": 95.0,
+      "avg_llm_calls": 3.2,
+      "inject_step": 100
+    }
+  },
+  "step_200": {
+    "obstruction": {
+      "success_rate": 90.0,
+      "avg_llm_calls": 1.45,
+      "inject_step": 200
+    },
+    "displacement": {
+      "success_rate": 95.0,
+      "avg_llm_calls": 1.0,
+      "inject_step": 200
+    },
+    "invalidation": {
+      "success_rate": 95.0,
+      "avg_llm_calls": 3.05,
+      "inject_step": 200
+    }
+  },
+  "step_400": {
+    "obstruction": {
+      "success_rate": 90.0,
+      "avg_llm_calls": 1.75,
+      "inject_step": 400
+    },
+    "displacement": {
+      "success_rate": 95.0,
+      "avg_llm_calls": 1.0,
+      "inject_step": 400
+    },
+    "invalidation": {
+      "success_rate": 95.0,
+      "avg_llm_calls": 2.85,
+      "inject_step": 400
+    }
+  }
+}

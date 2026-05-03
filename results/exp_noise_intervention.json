@@ -1,0 +1,117 @@
+{
+  "clean": {
+    "obstruction": {
+      "success_rate": 86.66666666666667,
+      "noise_episodes": 0,
+      "noise_sr": null,
+      "clean_sr_in_mixed": 86.66666666666667,
+      "avg_llm_calls": 4.5
+    },
+    "displacement": {
+      "success_rate": 80.0,
+      "noise_episodes": 0,
+      "noise_sr": null,
+      "clean_sr_in_mixed": 80.0,
+      "avg_llm_calls": 1.7
+    },
+    "invalidation": {
+      "success_rate": 90.0,
+      "noise_episodes": 0,
+      "noise_sr": null,
+      "clean_sr_in_mixed": 90.0,
+      "avg_llm_calls": 4.766666666666667
+    }
+  },
+  "wrong_50": {
+    "obstruction": {
+      "success_rate": 86.66666666666667,
+      "noise_episodes": 15,
+      "noise_sr": 73.33333333333333,
+      "clean_sr_in_mixed": 100.0,
+      "avg_llm_calls": 4.7
+    },
+    "displacement": {
+      "success_rate": 80.0,
+      "noise_episodes": 15,
+      "noise_sr": 86.66666666666667,
+      "clean_sr_in_mixed": 73.33333333333333,
+      "avg_llm_calls": 1.7
+    },
+    "invalidation": {
+      "success_rate": 90.0,
+      "noise_episodes": 21,
+      "noise_sr": 90.47619047619048,
+      "clean_sr_in_mixed": 88.88888888888889,
+      "avg_llm_calls": 6.366666666666666
+    }
+  },
+  "wrong_100": {
+    "obstruction": {
+      "success_rate": 86.66666666666667,
+      "noise_episodes": 30,
+      "noise_sr": 86.66666666666667,
+      "clean_sr_in_mixed": null,
+      "avg_llm_calls": 4.5
+    },
+    "displacement": {
+      "success_rate": 80.0,
+      "noise_episodes": 30,
+      "noise_sr": 80.0,
+      "clean_sr_in_mixed": null,
+      "avg_llm_calls": 1.7
+    },
+    "invalidation": {
+      "success_rate": 90.0,
+      "noise_episodes": 30,
+      "noise_sr": 90.0,
+      "clean_sr_in_mixed": null,
+      "avg_llm_calls": 5.4
+    }
+  },
+  "corrupt_50": {
+    "obstruction": {
+      "success_rate": 86.66666666666667,
+      "noise_episodes": 10,
+      "noise_sr": 90.0,
+      "clean_sr_in_mixed": 85.0,
+      "avg_llm_calls": 4.7
+    },
+    "displacement": {
+      "success_rate": 80.0,
+      "noise_episodes": 15,
+      "noise_sr": 73.33333333333333,
+      "clean_sr_in_mixed": 86.66666666666667,
+      "avg_llm_calls": 1.7
+    },
+    "invalidation": {
+      "success_rate": 90.0,
+      "noise_episodes": 13,
+      "noise_sr": 84.61538461538461,
+      "clean_sr_in_mixed": 94.11764705882352,
+      "avg_llm_calls": 4.766666666666667
+    }
+  },
+  "corrupt_100": {
+    "obstruction": {
+      "success_rate": 86.66666666666667,
+      "noise_episodes": 30,
+      "noise_sr": 86.66666666666667,
+      "clean_sr_in_mixed": null,
+      "avg_llm_calls": 4.5
+    },
+    "displacement": {
+      "success_rate": 80.0,
+      "noise_episodes": 30,
+      "noise_sr": 80.0,
+      "clean_sr_in_mixed": null,
+      "avg_llm_calls": 1.7
+    },
+    "invalidation": {
+      "success_rate": 90.0,
+      "noise_episodes": 30,
+      "noise_sr": 90.0,
+      "clean_sr_in_mixed": null,
+      "avg_llm_calls": 4.766666666666667
+    }
+  }
+}

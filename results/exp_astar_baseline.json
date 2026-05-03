@@ -1,0 +1,42 @@
+{
+  "astar_replanner": {
+    "none": {
+      "success_rate": 80.0,
+      "avg_steps": 72.25,
+      "avg_replanner_calls": 7.4,
+      "n_episodes": 30
+    },
+    "obstruction": {
+      "success_rate": 86.66666666666667,
+      "avg_steps": 76.92307692307692,
+      "avg_replanner_calls": 3.066666666666667,
+      "n_episodes": 30
+    },
+    "displacement": {
+      "success_rate": 90.0,
+      "avg_steps": 96.18518518518519,
+      "avg_replanner_calls": 5.033333333333333,
+      "n_episodes": 30
+    },
+    "invalidation": {
+      "success_rate": 90.0,
+      "avg_steps": 84.07407407407408,
+      "avg_replanner_calls": 4.566666666666666,
+      "n_episodes": 30
+    }
+  },
+  "ours_llm_task_memory": {
+    "none": {
+      "success_rate": 80.0
+    },
+    "obstruction": {
+      "success_rate": 80.0
+    },
+    "displacement": {
+      "success_rate": 95.0
+    },
+    "invalidation": {
+      "success_rate": 100.0
+    }
+  }
+}

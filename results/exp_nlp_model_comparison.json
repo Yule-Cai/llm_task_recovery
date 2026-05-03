@@ -1,0 +1,1068 @@
+{
+  "bert-base-uncased": {
+    "L1_none": {
+      "success_rate": 20.0,
+      "avg_llm_calls": 0.0,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L1_obstruction": {
+      "success_rate": 30.0,
+      "avg_llm_calls": 0.8,
+      "coord_generation_rate": 0.0,
+      "sample_reply": "[ENCODER MODEL - CANNOT GENERATE COORDINATES]"
+    },
+    "L1_displacement": {
+      "success_rate": 53.333333333333336,
+      "avg_llm_calls": 0.8,
+      "coord_generation_rate": 0.0,
+      "sample_reply": "[ENCODER MODEL - CANNOT GENERATE COORDINATES]"
+    },
+    "L1_invalidation": {
+      "success_rate": 46.666666666666664,
+      "avg_llm_calls": 0.8,
+      "coord_generation_rate": 0.0,
+      "sample_reply": "[ENCODER MODEL - CANNOT GENERATE COORDINATES]"
+    },
+    "L2_none": {
+      "success_rate": 30.0,
+      "avg_llm_calls": 0.0,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L2_obstruction": {
+      "success_rate": 30.0,
+      "avg_llm_calls": 0.7,
+      "coord_generation_rate": 0.0,
+      "sample_reply": "[ENCODER MODEL - CANNOT GENERATE COORDINATES]"
+    },
+    "L2_displacement": {
+      "success_rate": 53.333333333333336,
+      "avg_llm_calls": 0.7,
+      "coord_generation_rate": 0.0,
+      "sample_reply": "[ENCODER MODEL - CANNOT GENERATE COORDINATES]"
+    },
+    "L2_invalidation": {
+      "success_rate": 43.333333333333336,
+      "avg_llm_calls": 0.7,
+      "coord_generation_rate": 0.0,
+      "sample_reply": "[ENCODER MODEL - CANNOT GENERATE COORDINATES]"
+    },
+    "L3_none": {
+      "success_rate": 53.333333333333336,
+      "avg_llm_calls": 0.0,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L3_obstruction": {
+      "success_rate": 60.0,
+      "avg_llm_calls": 0.5,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L3_displacement": {
+      "success_rate": 83.33333333333334,
+      "avg_llm_calls": 0.5,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L3_invalidation": {
+      "success_rate": 70.0,
+      "avg_llm_calls": 0.5,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "avg_sr": 47.77777777777778,
+    "model_type": "encoder"
+  },
+  "roberta-base": {
+    "L1_none": {
+      "success_rate": 20.0,
+      "avg_llm_calls": 0.0,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L1_obstruction": {
+      "success_rate": 30.0,
+      "avg_llm_calls": 0.8,
+      "coord_generation_rate": 0.0,
+      "sample_reply": "[ENCODER MODEL - CANNOT GENERATE COORDINATES]"
+    },
+    "L1_displacement": {
+      "success_rate": 53.333333333333336,
+      "avg_llm_calls": 0.8,
+      "coord_generation_rate": 0.0,
+      "sample_reply": "[ENCODER MODEL - CANNOT GENERATE COORDINATES]"
+    },
+    "L1_invalidation": {
+      "success_rate": 46.666666666666664,
+      "avg_llm_calls": 0.8,
+      "coord_generation_rate": 0.0,
+      "sample_reply": "[ENCODER MODEL - CANNOT GENERATE COORDINATES]"
+    },
+    "L2_none": {
+      "success_rate": 30.0,
+      "avg_llm_calls": 0.0,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L2_obstruction": {
+      "success_rate": 30.0,
+      "avg_llm_calls": 0.7,
+      "coord_generation_rate": 0.0,
+      "sample_reply": "[ENCODER MODEL - CANNOT GENERATE COORDINATES]"
+    },
+    "L2_displacement": {
+      "success_rate": 53.333333333333336,
+      "avg_llm_calls": 0.7,
+      "coord_generation_rate": 0.0,
+      "sample_reply": "[ENCODER MODEL - CANNOT GENERATE COORDINATES]"
+    },
+    "L2_invalidation": {
+      "success_rate": 43.333333333333336,
+      "avg_llm_calls": 0.7,
+      "coord_generation_rate": 0.0,
+      "sample_reply": "[ENCODER MODEL - CANNOT GENERATE COORDINATES]"
+    },
+    "L3_none": {
+      "success_rate": 53.333333333333336,
+      "avg_llm_calls": 0.0,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L3_obstruction": {
+      "success_rate": 60.0,
+      "avg_llm_calls": 0.5,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L3_displacement": {
+      "success_rate": 83.33333333333334,
+      "avg_llm_calls": 0.5,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L3_invalidation": {
+      "success_rate": 70.0,
+      "avg_llm_calls": 0.5,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "avg_sr": 47.77777777777778,
+    "model_type": "encoder"
+  },
+  "gpt2": {
+    "L1_none": {
+      "success_rate": 20.0,
+      "avg_llm_calls": 0.0,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L1_obstruction": {
+      "success_rate": 30.0,
+      "avg_llm_calls": 0.8,
+      "coord_generation_rate": 0.0,
+      "sample_reply": " X X X X X X X X X X X X X X X X X X X X"
+    },
+    "L1_displacement": {
+      "success_rate": 53.333333333333336,
+      "avg_llm_calls": 0.8,
+      "coord_generation_rate": 0.0,
+      "sample_reply": " X X X X X X X X X X X X X X X X X X X X"
+    },
+    "L1_invalidation": {
+      "success_rate": 46.666666666666664,
+      "avg_llm_calls": 0.8,
+      "coord_generation_rate": 0.0,
+      "sample_reply": " X X X X X X X X X X X X X X X X X X X X"
+    },
+    "L2_none": {
+      "success_rate": 30.0,
+      "avg_llm_calls": 0.0,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L2_obstruction": {
+      "success_rate": 30.0,
+      "avg_llm_calls": 0.7,
+      "coord_generation_rate": 0.0,
+      "sample_reply": " - - - - - - - \n- - X - - - X \n- -"
+    },
+    "L2_displacement": {
+      "success_rate": 53.333333333333336,
+      "avg_llm_calls": 0.7,
+      "coord_generation_rate": 0.0,
+      "sample_reply": " - - - - - - - - - - - - - - - - - - - -"
+    },
+    "L2_invalidation": {
+      "success_rate": 43.333333333333336,
+      "avg_llm_calls": 0.7,
+      "coord_generation_rate": 0.0,
+      "sample_reply": " - - - - - - - \n- - - - - - X \n- -"
+    },
+    "L3_none": {
+      "success_rate": 53.333333333333336,
+      "avg_llm_calls": 0.0,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L3_obstruction": {
+      "success_rate": 60.0,
+      "avg_llm_calls": 0.5,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L3_displacement": {
+      "success_rate": 83.33333333333334,
+      "avg_llm_calls": 0.5,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L3_invalidation": {
+      "success_rate": 70.0,
+      "avg_llm_calls": 0.5,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "avg_sr": 47.77777777777778,
+    "model_type": "decoder"
+  },
+  "distilbert-base-uncased": {
+    "L1_none": {
+      "success_rate": 20.0,
+      "avg_llm_calls": 0.0,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L1_obstruction": {
+      "success_rate": 30.0,
+      "avg_llm_calls": 0.8,
+      "coord_generation_rate": 0.0,
+      "sample_reply": "[ENCODER MODEL - CANNOT GENERATE COORDINATES]"
+    },
+    "L1_displacement": {
+      "success_rate": 53.333333333333336,
+      "avg_llm_calls": 0.8,
+      "coord_generation_rate": 0.0,
+      "sample_reply": "[ENCODER MODEL - CANNOT GENERATE COORDINATES]"
+    },
+    "L1_invalidation": {
+      "success_rate": 46.666666666666664,
+      "avg_llm_calls": 0.8,
+      "coord_generation_rate": 0.0,
+      "sample_reply": "[ENCODER MODEL - CANNOT GENERATE COORDINATES]"
+    },
+    "L2_none": {
+      "success_rate": 30.0,
+      "avg_llm_calls": 0.0,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L2_obstruction": {
+      "success_rate": 30.0,
+      "avg_llm_calls": 0.7,
+      "coord_generation_rate": 0.0,
+      "sample_reply": "[ENCODER MODEL - CANNOT GENERATE COORDINATES]"
+    },
+    "L2_displacement": {
+      "success_rate": 53.333333333333336,
+      "avg_llm_calls": 0.7,
+      "coord_generation_rate": 0.0,
+      "sample_reply": "[ENCODER MODEL - CANNOT GENERATE COORDINATES]"
+    },
+    "L2_invalidation": {
+      "success_rate": 43.333333333333336,
+      "avg_llm_calls": 0.7,
+      "coord_generation_rate": 0.0,
+      "sample_reply": "[ENCODER MODEL - CANNOT GENERATE COORDINATES]"
+    },
+    "L3_none": {
+      "success_rate": 53.333333333333336,
+      "avg_llm_calls": 0.0,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L3_obstruction": {
+      "success_rate": 60.0,
+      "avg_llm_calls": 0.5,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L3_displacement": {
+      "success_rate": 83.33333333333334,
+      "avg_llm_calls": 0.5,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L3_invalidation": {
+      "success_rate": 70.0,
+      "avg_llm_calls": 0.5,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "avg_sr": 47.77777777777778,
+    "model_type": "encoder"
+  },
+  "tinybert": {
+    "L1_none": {
+      "success_rate": 20.0,
+      "avg_llm_calls": 0.0,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L1_obstruction": {
+      "success_rate": 30.0,
+      "avg_llm_calls": 0.8,
+      "coord_generation_rate": 0.0,
+      "sample_reply": "[ENCODER MODEL - CANNOT GENERATE COORDINATES]"
+    },
+    "L1_displacement": {
+      "success_rate": 53.333333333333336,
+      "avg_llm_calls": 0.8,
+      "coord_generation_rate": 0.0,
+      "sample_reply": "[ENCODER MODEL - CANNOT GENERATE COORDINATES]"
+    },
+    "L1_invalidation": {
+      "success_rate": 46.666666666666664,
+      "avg_llm_calls": 0.8,
+      "coord_generation_rate": 0.0,
+      "sample_reply": "[ENCODER MODEL - CANNOT GENERATE COORDINATES]"
+    },
+    "L2_none": {
+      "success_rate": 30.0,
+      "avg_llm_calls": 0.0,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L2_obstruction": {
+      "success_rate": 30.0,
+      "avg_llm_calls": 0.7,
+      "coord_generation_rate": 0.0,
+      "sample_reply": "[ENCODER MODEL - CANNOT GENERATE COORDINATES]"
+    },
+    "L2_displacement": {
+      "success_rate": 53.333333333333336,
+      "avg_llm_calls": 0.7,
+      "coord_generation_rate": 0.0,
+      "sample_reply": "[ENCODER MODEL - CANNOT GENERATE COORDINATES]"
+    },
+    "L2_invalidation": {
+      "success_rate": 43.333333333333336,
+      "avg_llm_calls": 0.7,
+      "coord_generation_rate": 0.0,
+      "sample_reply": "[ENCODER MODEL - CANNOT GENERATE COORDINATES]"
+    },
+    "L3_none": {
+      "success_rate": 53.333333333333336,
+      "avg_llm_calls": 0.0,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L3_obstruction": {
+      "success_rate": 60.0,
+      "avg_llm_calls": 0.5,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L3_displacement": {
+      "success_rate": 83.33333333333334,
+      "avg_llm_calls": 0.5,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L3_invalidation": {
+      "success_rate": 70.0,
+      "avg_llm_calls": 0.5,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "avg_sr": 47.77777777777778,
+    "model_type": "encoder"
+  },
+  "mobilebert": {
+    "L1_none": {
+      "success_rate": 20.0,
+      "avg_llm_calls": 0.0,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L1_obstruction": {
+      "success_rate": 30.0,
+      "avg_llm_calls": 0.8,
+      "coord_generation_rate": 0.0,
+      "sample_reply": "[ENCODER MODEL - CANNOT GENERATE COORDINATES]"
+    },
+    "L1_displacement": {
+      "success_rate": 53.333333333333336,
+      "avg_llm_calls": 0.8,
+      "coord_generation_rate": 0.0,
+      "sample_reply": "[ENCODER MODEL - CANNOT GENERATE COORDINATES]"
+    },
+    "L1_invalidation": {
+      "success_rate": 46.666666666666664,
+      "avg_llm_calls": 0.8,
+      "coord_generation_rate": 0.0,
+      "sample_reply": "[ENCODER MODEL - CANNOT GENERATE COORDINATES]"
+    },
+    "L2_none": {
+      "success_rate": 30.0,
+      "avg_llm_calls": 0.0,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L2_obstruction": {
+      "success_rate": 30.0,
+      "avg_llm_calls": 0.7,
+      "coord_generation_rate": 0.0,
+      "sample_reply": "[ENCODER MODEL - CANNOT GENERATE COORDINATES]"
+    },
+    "L2_displacement": {
+      "success_rate": 53.333333333333336,
+      "avg_llm_calls": 0.7,
+      "coord_generation_rate": 0.0,
+      "sample_reply": "[ENCODER MODEL - CANNOT GENERATE COORDINATES]"
+    },
+    "L2_invalidation": {
+      "success_rate": 43.333333333333336,
+      "avg_llm_calls": 0.7,
+      "coord_generation_rate": 0.0,
+      "sample_reply": "[ENCODER MODEL - CANNOT GENERATE COORDINATES]"
+    },
+    "L3_none": {
+      "success_rate": 53.333333333333336,
+      "avg_llm_calls": 0.0,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L3_obstruction": {
+      "success_rate": 60.0,
+      "avg_llm_calls": 0.5,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L3_displacement": {
+      "success_rate": 83.33333333333334,
+      "avg_llm_calls": 0.5,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L3_invalidation": {
+      "success_rate": 70.0,
+      "avg_llm_calls": 0.5,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "avg_sr": 47.77777777777778,
+    "model_type": "encoder"
+  },
+  "albert-base-v2": {
+    "L1_none": {
+      "success_rate": 20.0,
+      "avg_llm_calls": 0.0,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L1_obstruction": {
+      "success_rate": 30.0,
+      "avg_llm_calls": 0.8,
+      "coord_generation_rate": 0.0,
+      "sample_reply": "[ENCODER MODEL - CANNOT GENERATE COORDINATES]"
+    },
+    "L1_displacement": {
+      "success_rate": 53.333333333333336,
+      "avg_llm_calls": 0.8,
+      "coord_generation_rate": 0.0,
+      "sample_reply": "[ENCODER MODEL - CANNOT GENERATE COORDINATES]"
+    },
+    "L1_invalidation": {
+      "success_rate": 46.666666666666664,
+      "avg_llm_calls": 0.8,
+      "coord_generation_rate": 0.0,
+      "sample_reply": "[ENCODER MODEL - CANNOT GENERATE COORDINATES]"
+    },
+    "L2_none": {
+      "success_rate": 30.0,
+      "avg_llm_calls": 0.0,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L2_obstruction": {
+      "success_rate": 30.0,
+      "avg_llm_calls": 0.7,
+      "coord_generation_rate": 0.0,
+      "sample_reply": "[ENCODER MODEL - CANNOT GENERATE COORDINATES]"
+    },
+    "L2_displacement": {
+      "success_rate": 53.333333333333336,
+      "avg_llm_calls": 0.7,
+      "coord_generation_rate": 0.0,
+      "sample_reply": "[ENCODER MODEL - CANNOT GENERATE COORDINATES]"
+    },
+    "L2_invalidation": {
+      "success_rate": 43.333333333333336,
+      "avg_llm_calls": 0.7,
+      "coord_generation_rate": 0.0,
+      "sample_reply": "[ENCODER MODEL - CANNOT GENERATE COORDINATES]"
+    },
+    "L3_none": {
+      "success_rate": 53.333333333333336,
+      "avg_llm_calls": 0.0,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L3_obstruction": {
+      "success_rate": 60.0,
+      "avg_llm_calls": 0.5,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L3_displacement": {
+      "success_rate": 83.33333333333334,
+      "avg_llm_calls": 0.5,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L3_invalidation": {
+      "success_rate": 70.0,
+      "avg_llm_calls": 0.5,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "avg_sr": 47.77777777777778,
+    "model_type": "encoder"
+  },
+  "mbert": {
+    "L1_none": {
+      "success_rate": 20.0,
+      "avg_llm_calls": 0.0,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L1_obstruction": {
+      "success_rate": 30.0,
+      "avg_llm_calls": 0.8,
+      "coord_generation_rate": 0.0,
+      "sample_reply": "[ENCODER MODEL - CANNOT GENERATE COORDINATES]"
+    },
+    "L1_displacement": {
+      "success_rate": 53.333333333333336,
+      "avg_llm_calls": 0.8,
+      "coord_generation_rate": 0.0,
+      "sample_reply": "[ENCODER MODEL - CANNOT GENERATE COORDINATES]"
+    },
+    "L1_invalidation": {
+      "success_rate": 46.666666666666664,
+      "avg_llm_calls": 0.8,
+      "coord_generation_rate": 0.0,
+      "sample_reply": "[ENCODER MODEL - CANNOT GENERATE COORDINATES]"
+    },
+    "L2_none": {
+      "success_rate": 30.0,
+      "avg_llm_calls": 0.0,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L2_obstruction": {
+      "success_rate": 30.0,
+      "avg_llm_calls": 0.7,
+      "coord_generation_rate": 0.0,
+      "sample_reply": "[ENCODER MODEL - CANNOT GENERATE COORDINATES]"
+    },
+    "L2_displacement": {
+      "success_rate": 53.333333333333336,
+      "avg_llm_calls": 0.7,
+      "coord_generation_rate": 0.0,
+      "sample_reply": "[ENCODER MODEL - CANNOT GENERATE COORDINATES]"
+    },
+    "L2_invalidation": {
+      "success_rate": 43.333333333333336,
+      "avg_llm_calls": 0.7,
+      "coord_generation_rate": 0.0,
+      "sample_reply": "[ENCODER MODEL - CANNOT GENERATE COORDINATES]"
+    },
+    "L3_none": {
+      "success_rate": 53.333333333333336,
+      "avg_llm_calls": 0.0,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L3_obstruction": {
+      "success_rate": 60.0,
+      "avg_llm_calls": 0.5,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L3_displacement": {
+      "success_rate": 83.33333333333334,
+      "avg_llm_calls": 0.5,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L3_invalidation": {
+      "success_rate": 70.0,
+      "avg_llm_calls": 0.5,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "avg_sr": 47.77777777777778,
+    "model_type": "encoder"
+  },
+  "xlm-roberta-base": {
+    "L1_none": {
+      "success_rate": 20.0,
+      "avg_llm_calls": 0.0,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L1_obstruction": {
+      "success_rate": 30.0,
+      "avg_llm_calls": 0.8,
+      "coord_generation_rate": 0.0,
+      "sample_reply": "[ENCODER MODEL - CANNOT GENERATE COORDINATES]"
+    },
+    "L1_displacement": {
+      "success_rate": 53.333333333333336,
+      "avg_llm_calls": 0.8,
+      "coord_generation_rate": 0.0,
+      "sample_reply": "[ENCODER MODEL - CANNOT GENERATE COORDINATES]"
+    },
+    "L1_invalidation": {
+      "success_rate": 46.666666666666664,
+      "avg_llm_calls": 0.8,
+      "coord_generation_rate": 0.0,
+      "sample_reply": "[ENCODER MODEL - CANNOT GENERATE COORDINATES]"
+    },
+    "L2_none": {
+      "success_rate": 30.0,
+      "avg_llm_calls": 0.0,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L2_obstruction": {
+      "success_rate": 30.0,
+      "avg_llm_calls": 0.7,
+      "coord_generation_rate": 0.0,
+      "sample_reply": "[ENCODER MODEL - CANNOT GENERATE COORDINATES]"
+    },
+    "L2_displacement": {
+      "success_rate": 53.333333333333336,
+      "avg_llm_calls": 0.7,
+      "coord_generation_rate": 0.0,
+      "sample_reply": "[ENCODER MODEL - CANNOT GENERATE COORDINATES]"
+    },
+    "L2_invalidation": {
+      "success_rate": 43.333333333333336,
+      "avg_llm_calls": 0.7,
+      "coord_generation_rate": 0.0,
+      "sample_reply": "[ENCODER MODEL - CANNOT GENERATE COORDINATES]"
+    },
+    "L3_none": {
+      "success_rate": 53.333333333333336,
+      "avg_llm_calls": 0.0,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L3_obstruction": {
+      "success_rate": 60.0,
+      "avg_llm_calls": 0.5,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L3_displacement": {
+      "success_rate": 83.33333333333334,
+      "avg_llm_calls": 0.5,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L3_invalidation": {
+      "success_rate": 70.0,
+      "avg_llm_calls": 0.5,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "avg_sr": 47.77777777777778,
+    "model_type": "encoder"
+  },
+  "gpt2-medium": {
+    "L1_none": {
+      "success_rate": 20.0,
+      "avg_llm_calls": 0.0,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L1_obstruction": {
+      "success_rate": 40.0,
+      "avg_llm_calls": 0.8,
+      "coord_generation_rate": 0.3,
+      "sample_reply": " X X X X X X X X X X X X X X X X X X X X"
+    },
+    "L1_displacement": {
+      "success_rate": 53.333333333333336,
+      "avg_llm_calls": 0.8,
+      "coord_generation_rate": 0.43333333333333335,
+      "sample_reply": " X X X X X X X X X X X X X X X X X X X X"
+    },
+    "L1_invalidation": {
+      "success_rate": 50.0,
+      "avg_llm_calls": 0.8,
+      "coord_generation_rate": 0.43333333333333335,
+      "sample_reply": " X X X X X X X X X X X X X X X X X X X X"
+    },
+    "L2_none": {
+      "success_rate": 30.0,
+      "avg_llm_calls": 0.0,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L2_obstruction": {
+      "success_rate": 33.33333333333333,
+      "avg_llm_calls": 0.7,
+      "coord_generation_rate": 0.2,
+      "sample_reply": " [X, Y]\nOutput ONLY [X, Y]: [X, Y]\nOutput"
+    },
+    "L2_displacement": {
+      "success_rate": 53.333333333333336,
+      "avg_llm_calls": 0.7,
+      "coord_generation_rate": 0.26666666666666666,
+      "sample_reply": " [19,18]\nOutput ONLY [X, Y]: [18,18]\nOutput"
+    },
+    "L2_invalidation": {
+      "success_rate": 43.333333333333336,
+      "avg_llm_calls": 0.7,
+      "coord_generation_rate": 0.26666666666666666,
+      "sample_reply": " [X, Y]\nOutput ONLY [X, Y]: [X, Y]\nOutput"
+    },
+    "L3_none": {
+      "success_rate": 53.333333333333336,
+      "avg_llm_calls": 0.0,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L3_obstruction": {
+      "success_rate": 60.0,
+      "avg_llm_calls": 0.5,
+      "coord_generation_rate": 0.23333333333333334,
+      "sample_reply": ""
+    },
+    "L3_displacement": {
+      "success_rate": 83.33333333333334,
+      "avg_llm_calls": 0.5,
+      "coord_generation_rate": 0.3,
+      "sample_reply": ""
+    },
+    "L3_invalidation": {
+      "success_rate": 70.0,
+      "avg_llm_calls": 0.5,
+      "coord_generation_rate": 0.2,
+      "sample_reply": ""
+    },
+    "avg_sr": 49.166666666666664,
+    "model_type": "decoder"
+  },
+  "TinyLlama-1.1B": {
+    "L1_none": {
+      "success_rate": 20.0,
+      "avg_llm_calls": 0.0,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L1_obstruction": {
+      "success_rate": 40.0,
+      "avg_llm_calls": 0.8,
+      "coord_generation_rate": 0.5666666666666667,
+      "sample_reply": "[4, 9]\nGrid (R=Robot, .=free, X=wall"
+    },
+    "L1_displacement": {
+      "success_rate": 53.333333333333336,
+      "avg_llm_calls": 0.8,
+      "coord_generation_rate": 0.6,
+      "sample_reply": "[5, 9]\nGrid (R=Robot, .=free, X=wall"
+    },
+    "L1_invalidation": {
+      "success_rate": 50.0,
+      "avg_llm_calls": 0.8,
+      "coord_generation_rate": 0.5,
+      "sample_reply": "[4, 9]\nGrid (R=Robot, .=free, X=wall"
+    },
+    "L2_none": {
+      "success_rate": 30.0,
+      "avg_llm_calls": 0.0,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L2_obstruction": {
+      "success_rate": 33.33333333333333,
+      "avg_llm_calls": 0.7,
+      "coord_generation_rate": 0.43333333333333335,
+      "sample_reply": "[19, 23]\nGrid (R=Robot, .=free, X"
+    },
+    "L2_displacement": {
+      "success_rate": 53.333333333333336,
+      "avg_llm_calls": 0.7,
+      "coord_generation_rate": 0.5,
+      "sample_reply": "[19, 19]\nGrid (R=Robot, .=free, X"
+    },
+    "L2_invalidation": {
+      "success_rate": 43.333333333333336,
+      "avg_llm_calls": 0.7,
+      "coord_generation_rate": 0.4,
+      "sample_reply": "[19, 23]\nGrid (R=Robot, .=free, X"
+    },
+    "L3_none": {
+      "success_rate": 53.333333333333336,
+      "avg_llm_calls": 0.0,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L3_obstruction": {
+      "success_rate": 60.0,
+      "avg_llm_calls": 0.5,
+      "coord_generation_rate": 0.4,
+      "sample_reply": ""
+    },
+    "L3_displacement": {
+      "success_rate": 83.33333333333334,
+      "avg_llm_calls": 0.5,
+      "coord_generation_rate": 0.43333333333333335,
+      "sample_reply": ""
+    },
+    "L3_invalidation": {
+      "success_rate": 70.0,
+      "avg_llm_calls": 0.5,
+      "coord_generation_rate": 0.3,
+      "sample_reply": ""
+    },
+    "avg_sr": 49.166666666666664,
+    "model_type": "decoder"
+  },
+  "SmolLM2-1.7B": {
+    "L1_none": {
+      "success_rate": 20.0,
+      "avg_llm_calls": 0.0,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L1_obstruction": {
+      "success_rate": 36.666666666666664,
+      "avg_llm_calls": 0.8,
+      "coord_generation_rate": 0.3,
+      "sample_reply": " 4 9\n\nRobot navigation task. Output the best waypoint coordinate.\nGrid"
+    },
+    "L1_displacement": {
+      "success_rate": 53.333333333333336,
+      "avg_llm_calls": 0.8,
+      "coord_generation_rate": 0.5,
+      "sample_reply": " \nOutput ONLY [X, Y]: \nOutput ONLY [X, Y]: \n"
+    },
+    "L1_invalidation": {
+      "success_rate": 53.333333333333336,
+      "avg_llm_calls": 0.8,
+      "coord_generation_rate": 0.7,
+      "sample_reply": " [4,9]\n\nRobot navigation task. Output the best waypoint coordinate.\n"
+    },
+    "L2_none": {
+      "success_rate": 30.0,
+      "avg_llm_calls": 0.0,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L2_obstruction": {
+      "success_rate": 30.0,
+      "avg_llm_calls": 0.7,
+      "coord_generation_rate": 0.2,
+      "sample_reply": "\n\nRobot navigation task. Output the best waypoint coordinate.\nGrid (R=Rob"
+    },
+    "L2_displacement": {
+      "success_rate": 53.333333333333336,
+      "avg_llm_calls": 0.7,
+      "coord_generation_rate": 0.43333333333333335,
+      "sample_reply": " 19,17\n\nRobot navigation task. Output the best waypoint coordinate."
+    },
+    "L2_invalidation": {
+      "success_rate": 43.333333333333336,
+      "avg_llm_calls": 0.7,
+      "coord_generation_rate": 0.6,
+      "sample_reply": " 19,23\n\nRobot navigation task. Output the best waypoint coordinate."
+    },
+    "L3_none": {
+      "success_rate": 53.333333333333336,
+      "avg_llm_calls": 0.0,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L3_obstruction": {
+      "success_rate": 60.0,
+      "avg_llm_calls": 0.5,
+      "coord_generation_rate": 0.1,
+      "sample_reply": ""
+    },
+    "L3_displacement": {
+      "success_rate": 83.33333333333334,
+      "avg_llm_calls": 0.5,
+      "coord_generation_rate": 0.26666666666666666,
+      "sample_reply": ""
+    },
+    "L3_invalidation": {
+      "success_rate": 70.0,
+      "avg_llm_calls": 0.5,
+      "coord_generation_rate": 0.36666666666666664,
+      "sample_reply": ""
+    },
+    "avg_sr": 48.888888888888886,
+    "model_type": "decoder"
+  },
+  "Qwen2.5-0.5B": {
+    "L1_none": {
+      "success_rate": 20.0,
+      "avg_llm_calls": 0.0,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L1_obstruction": {
+      "success_rate": 30.0,
+      "avg_llm_calls": 0.8,
+      "coord_generation_rate": 0.03333333333333333,
+      "sample_reply": " 4, 9\n\nThe new obstacle is at position (4, 9). The closest"
+    },
+    "L1_displacement": {
+      "success_rate": 56.666666666666664,
+      "avg_llm_calls": 0.8,
+      "coord_generation_rate": 0.26666666666666666,
+      "sample_reply": " 6,9\n\nThe robot is currently at position (6,9) and needs to move"
+    },
+    "L1_invalidation": {
+      "success_rate": 46.666666666666664,
+      "avg_llm_calls": 0.8,
+      "coord_generation_rate": 0.06666666666666667,
+      "sample_reply": " 4, 9\n\nThe robot should move from its current position (4, 9)"
+    },
+    "L2_none": {
+      "success_rate": 30.0,
+      "avg_llm_calls": 0.0,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L2_obstruction": {
+      "success_rate": 30.0,
+      "avg_llm_calls": 0.7,
+      "coord_generation_rate": 0.0,
+      "sample_reply": " 19,23\n\nThe new obstacle is at coordinates (19,23)."
+    },
+    "L2_displacement": {
+      "success_rate": 53.333333333333336,
+      "avg_llm_calls": 0.7,
+      "coord_generation_rate": 0.2,
+      "sample_reply": " 19,17\n\nThe robot is currently at position (-1,-1) and needs"
+    },
+    "L2_invalidation": {
+      "success_rate": 43.333333333333336,
+      "avg_llm_calls": 0.7,
+      "coord_generation_rate": 0.06666666666666667,
+      "sample_reply": " 19,23\n\nThe robot should move from its current position (-) to the item"
+    },
+    "L3_none": {
+      "success_rate": 53.333333333333336,
+      "avg_llm_calls": 0.0,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L3_obstruction": {
+      "success_rate": 60.0,
+      "avg_llm_calls": 0.5,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L3_displacement": {
+      "success_rate": 83.33333333333334,
+      "avg_llm_calls": 0.5,
+      "coord_generation_rate": 0.16666666666666666,
+      "sample_reply": ""
+    },
+    "L3_invalidation": {
+      "success_rate": 70.0,
+      "avg_llm_calls": 0.5,
+      "coord_generation_rate": 0.03333333333333333,
+      "sample_reply": ""
+    },
+    "avg_sr": 48.05555555555555,
+    "model_type": "decoder"
+  }
+}
+```{
+  "Qwen2.5-1.5B": {
+    "L1_none": {
+      "success_rate": 20.0,
+      "avg_llm_calls": 0.0,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L1_obstruction": {
+      "success_rate": 40.0,
+      "avg_llm_calls": 0.8,
+      "coord_generation_rate": 0.7666666666666667,
+      "sample_reply": " [4, 9] or [3, 9] or [5, 9]"
+    },
+    "L1_displacement": {
+      "success_rate": 53.333333333333336,
+      "avg_llm_calls": 0.8,
+      "coord_generation_rate": 0.8,
+      "sample_reply": " [4, 9] To navigate the robot to the target waypoint based on the given instruct"
+    },
+    "L1_invalidation": {
+      "success_rate": 53.333333333333336,
+      "avg_llm_calls": 0.8,
+      "coord_generation_rate": 0.8,
+      "sample_reply": " [4, 9] or [3, 9] or [5, 9]"
+    },
+    "L2_none": {
+      "success_rate": 30.0,
+      "avg_llm_calls": 0.0,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L2_obstruction": {
+      "success_rate": 33.33333333333333,
+      "avg_llm_calls": 0.7,
+      "coord_generation_rate": 0.7,
+      "sample_reply": " [19, 23] or [18, 23] or [1"
+    },
+    "L2_displacement": {
+      "success_rate": 53.333333333333336,
+      "avg_llm_calls": 0.7,
+      "coord_generation_rate": 0.7,
+      "sample_reply": " [18, 17] To navigate the robot to the target waypoint based on the given"
+    },
+    "L2_invalidation": {
+      "success_rate": 46.666666666666664,
+      "avg_llm_calls": 0.7,
+      "coord_generation_rate": 0.7,
+      "sample_reply": " [17, 22] To solve this problem, we need to navigate the robot from"
+    },
+    "L3_none": {
+      "success_rate": 53.333333333333336,
+      "avg_llm_calls": 0.0,
+      "coord_generation_rate": 0.0,
+      "sample_reply": ""
+    },
+    "L3_obstruction": {
+      "success_rate": 60.0,
+      "avg_llm_calls": 0.5,
+      "coord_generation_rate": 0.5,
+      "sample_reply": ""
+    },
+    "L3_displacement": {
+      "success_rate": 83.33333333333334,
+      "avg_llm_calls": 0.5,
+      "coord_generation_rate": 0.5,
+      "sample_reply": ""
+    },
+    "L3_invalidation": {
+      "success_rate": 70.0,
+      "avg_llm_calls": 0.5,
+      "coord_generation_rate": 0.5,
+      "sample_reply": ""
+    },
+    "avg_sr": 49.72222222222222,
+    "model_type": "decoder"
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "pick_deliver": {
+    "none": {
+      "pure_ppo": {
+        "success_rate": 65.0
+      },
+      "ours": {
+        "success_rate": 90.0,
+        "avg_llm_calls": 0.8
+      }
+    },
+    "obstruction": {
+      "pure_ppo": {
+        "success_rate": 70.0
+      },
+      "ours": {
+        "success_rate": 85.0,
+        "avg_llm_calls": 1.85
+      }
+    },
+    "displacement": {
+      "pure_ppo": {
+        "success_rate": 100.0
+      },
+      "ours": {
+        "success_rate": 90.0,
+        "avg_llm_calls": 1.2
+      }
+    },
+    "invalidation": {
+      "pure_ppo": {
+        "success_rate": 80.0
+      },
+      "ours": {
+        "success_rate": 95.0,
+        "avg_llm_calls": 3.2
+      }
+    }
+  },
+  "patrol": {
+    "none": {
+      "pure_ppo": {
+        "success_rate": 55.00000000000001
+      },
+      "ours": {
+        "success_rate": 75.0,
+        "avg_llm_calls": 1.7
+      }
+    },
+    "obstruction": {
+      "pure_ppo": {
+        "success_rate": 60.0
+      },
+      "ours": {
+        "success_rate": 85.0,
+        "avg_llm_calls": 4.25
+      }
+    },
+    "displacement": {
+      "pure_ppo": {
+        "success_rate": 55.00000000000001
+      },
+      "ours": {
+        "success_rate": 90.0,
+        "avg_llm_calls": 2.65
+      }
+    },
+    "invalidation": {
+      "pure_ppo": {
+        "success_rate": 30.0
+      },
+      "ours": {
+        "success_rate": 40.0,
+        "avg_llm_calls": 13.8
+      }
+    }
+  },
+  "search": {
+    "none": {
+      "pure_ppo": {
+        "success_rate": 70.0
+      },
+      "ours": {
+        "success_rate": 70.0,
+        "avg_llm_calls": 37.35
+      }
+    },
+    "obstruction": {
+      "pure_ppo": {
+        "success_rate": 70.0
+      },
+      "ours": {
+        "success_rate": 60.0,
+        "avg_llm_calls": 39.6
+      }
+    },
+    "displacement": {
+      "pure_ppo": {
+        "success_rate": 100.0
+      },
+      "ours": {
+        "success_rate": 80.0,
+        "avg_llm_calls": 34.9
+      }
+    },
+    "invalidation": {
+      "pure_ppo": {
+        "success_rate": 65.0
+      },
+      "ours": {
+        "success_rate": 70.0,
+        "avg_llm_calls": 38.4
+      }
+    }
+  }
+}

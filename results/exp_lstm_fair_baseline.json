@@ -1,0 +1,34 @@
+{
+  "lstm_fair": {
+    "none": {
+      "success_rate": 0.0,
+      "n_episodes": 30
+    },
+    "obstruction": {
+      "success_rate": 0.0,
+      "n_episodes": 30
+    },
+    "displacement": {
+      "success_rate": 0.0,
+      "n_episodes": 30
+    },
+    "invalidation": {
+      "success_rate": 0.0,
+      "n_episodes": 30
+    }
+  },
+  "ours_llm_task_memory": {
+    "none": {
+      "success_rate": 80.0
+    },
+    "obstruction": {
+      "success_rate": 80.0
+    },
+    "displacement": {
+      "success_rate": 95.0
+    },
+    "invalidation": {
+      "success_rate": 100.0
+    }
+  }
+}
